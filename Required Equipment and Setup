@@ -1,0 +1,66 @@
+############ Hardware Requirment ############
+
+We need the following components to build the whole project:
+Bolt WiFi module
+LM35 Temperature sensor
+3Jumper wires ( Male to Female ) and 2simple connecting wires(for buzzer)
+USB cable ( mobile charger can also be used )
+Power Source ( power bank can also be used )
+Bread Board
+
+
+
+
+
+#############    Hardware configuration  ################
+
+
+
+
+First, we will connect the Bolt Wifi module to LM35 temperature sensor through jumper wires.
+LM35 has 3 pins, namely VCC, output, GND. So, we'll connect it with Bolt Wifi Module as follows:
+VCC pin of the LM35 is connected to 5v of the Bolt Wiﬁ module.(The brown wire)
+Output pin (middleone)is connected to A0 (Analog input pin) of the Bolt Wiﬁ module.(The red wire)
+GND pinLM35 is connected to the GND.(The orange wire)
+To connect the Buzzer, we'll use simple connecting wires, and connect as follows:
+The negative pin(small one) is connected with the GND along with the LM35.
+The Positive pin(large pin) is connected to the pin '1' (GPIO).
+
+
+
+###################### Software configuration ########################################
+
+
+We'll be using VMware Ubuntu device on our PC(Windows). You can Download the Virtual Box and Ubuntu Server.
+
+Type the below command in terminal to install boltiot python library.
+(sudo pip3 install boltiot)
+
+
+
+To get bolt API key and device ID, go to Bolt cloud and click in API section you will get API key.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
